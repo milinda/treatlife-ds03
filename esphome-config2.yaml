@@ -1,0 +1,65 @@
+#
+# TUYA SETUP FOR TREATLIFE DS03 CEILING FAN DIMMERS
+# -----------------------------------------------------------------------------
+
+substitutions:
+  devicename: treatlifeds03
+  lightname: treatlifeds03-01
+  ssid: !secret wifi_ssid
+  ssidpass: !secret wifi_password
+
+esphome:
+  name: $devicename
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  ssid: $ssid
+  password: $ssidpass
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: $lightname wifi
+    password: !secret fallback_ap_password
+
+captive_portal:
+
+# Disable logging via the UART
+logger:
+  baud_rate: 0
+
+#api:
+
+ota:
+  password: !secret ota_password
+
+web_server:
+  port: 80
+  
+uart:
+  rx_pin: GPIO3
+  tx_pin: GPIO1
+  baud_rate: 115200
+
+tuya:
+
+sensor:
+  - platform: wifi_signal
+    name: $lightname WiFi Signal
+    update_interval: 60s
+
+  - platform: uptime
+    name: $lightname Uptime
+
+light:
+  - platform: "tuya"
+    name: $lightname Light
+    dimmer_datapoint: 10
+    switch_datapoint: 9
+    min_value: 100
+    max_value: 1000
+
+fan:
+  - platform: "tuya"
+    name: $lightname Fan
+    switch_datapoint: 1
+    speed_datapoint: 3

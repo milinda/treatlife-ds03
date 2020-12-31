@@ -1,0 +1,288 @@
+Port = usbserial-AG0K59YT
+BaudRate = 115200
+DataBits = 8
+Parity = N
+StopBits = 1
+FlowControlCTS = false
+FlowControlDTR = false
+FlowControlXON = false
+UseSoftwareSupportedFlowControl = true
+BlockKeystrokesWhileFlowHalted = true
+DTRDefaultState = true
+RTSDefaultState = true
+ViewerMode = Plain
+WrapPlainText = true
+TerminalMode = Raw
+EnterKeyEmulation = CRLF
+EnterKeyEmulationCustomSequence = 00 1B
+EnableBell = false
+FormatTABtext = false
+FormatTABtextColumnWidth = 8
+ReplaceSpacesWithTAB = false
+ReplaceSpacesWithTABthreshold = 2
+EnableFormFeed = false
+EnableEndOfText = false
+IgnoreLineFeed = false
+FilterASCIIescapeSequences = false
+PlainTextEncoding = SystemDefault
+LocalEcho = false
+ReplaceTAB = false
+TABSpaces = 4
+ConvertNonPrint = true
+RemoveHighBit = false
+EnableBackspace = false
+LoopbackRXData = false
+IgnoreRXSignalErrors = true
+RXBufferSize = 10000
+RXDataTimeStamp = false
+RXDataTimeStampFormat = DateTime
+CaptureFormat = Raw
+CaptureFormatHexData = true
+CaptureTimeStamp = false
+CaptureTimeStampFormat = DateTime
+CaptureWaitForTerminationString = true
+CaptureTerminationString = 0D 0A
+CaptureRetainTerminationString = false
+CaptureLocalEcho = false
+CaptureFileStaysOpen = true
+CaptureAutostart = false
+CaptureAutoAppend = false
+CaptureAutoFilename = 
+CapturePath = /Applications
+TerminateSendString = false
+TerminationString = 0D 0A
+TXCharDelayEnabled = false
+TXCharDelay = 3000
+TXLineDelayEnabled = false
+TXLineDelay = 3000
+TXLineDelayChars = 0A
+TXLineDelayMatchAllChars = false
+TXPacketDelayEnabled = false
+TXPacketDelay = 3000
+TXPacketSize = 256
+XmitWaitEnable = false
+SendTextSoundEnable = false
+TextFont = Monaco
+TextFontSize = 0
+InputFontSize = 0
+TextFontColor = &h00000000
+CondenseLines = false
+TextBackgroundColor = &h00FFFFFF
+HexFont = Monaco
+HexFontSize = 0
+AutoConnect = false
+AutoDisconnect = false
+ShowConnectionTimer = true
+ShowRxTxByteCounts = true
+ResetStatisticsWhenPortOpens = true
+RefreshInterval = 100
+WindowPosition = 1280,105,1280,585
+
+7f9384a 5c1cbf38 fb454efb aced9380  
+3ffff380:  56e86932 64755183 c0fbbef3 81a6421a  
+3ffff390:  0a73c1d5 31f293a4 6fee56d8 a33f90fb  
+3ffff3a0:  91213fe7 c9db82c3 a6a5d739 ccd49c7d  
+3ffff3b0:  18277dcf 599b8630 72ccb870 6cc2aef8  
+3ffff3c0:  39a72f48 0ee8bd44 30568f04 64dd3aad  
+3ffff3d0:  dc904b2f 1dfe4570 5bc6c2d2 d1d366e4  
+3ffff3e0:  d14a7195 fb0b255f 98755013 7908d326  
+3ffff3f0:  c89a5f7e a0ba7fc9 fbb1b7e5 7e3eb8f1  
+3ffff400:  b1ac9de5 7f1f2a28 906c8baa 4142166d  
+3ffff410:  d203d7f6 648c7e1e 54fa92dc 4214b102  
+3ffff420:  f9b01475 f2424eeb 53981208 29f21470  
+3ffff430:  2ee03da9 e652b81c 786a2279 9a4d08ab  
+3ffff440:  c2644661 2f01c11f cfba9405 f2f17951  
+3ffff450:  31c521d0 5058ad93 88144ad8 823ba71b  
+3ffff460:  e7a4616d 1a55bd5d 67a42063 977c72dd  
+3ffff470:  7e660bea b841046f 018c6759 a6d90e85  
+3ffff480:  39ac362a f8e86c9c c3c10c7f 0a976dc9  
+3ffff490:  0cf2453b c0885d93 1b83265f 74a3aad4  
+3ffff4a0:  d476c397 d3585d53 4a1af857 996473ed  
+3ffff4b0:  2cb39cba 2191364d f7cc1135 c199fba0  
+3ffff4c0:  0d2aa636 93372600 b2dce80d f4c0078f  
+3ffff4d0:  432e103d dfdde497 cb1b1099 a8bf68a4  
+3ffff4e0:  19153186 795e5570 adc1fd12 40148f3a  
+3ffff4f0:  01659842 f63db6ed 4edb1582 29f9fe27  
+3ffff500:  851b7e07 4ed8c46f 38f93c4c 5e7084a0  
+3ffff510:  0d9f06e1 acdb08d7 e5300b34 13a568c9  
+3ffff520:  d3114ae7 9fcdbfc1 7f16e529 037cbd19  
+3ffff530:  60ea2ccd df99d196 73479fe1 18692820  
+3ffff540:  843ce3a2 0a6183d4 6a77f652 8dc2ced9  
+3ffff550:  9b33ab00 b173e418 cb14b2f0 bdc4517b  
+3ffff560:  b4e8cac1 ccb4424a 709d7695 817b870f  
+3ffff570:  100ef762 e932e00e bc9b8ab1 69c43eb0  
+3ffff580:  6ecf54dd 66d51fed f38a0cbd 780d6266  
+3ffff590:  923eab01 c26d1fab 494df023 bd8f9b69  
+3ffff5a0:  524d12fe c78e3c6a ce2f0f2b a5e531fe  
+3ffff5b0:  19d65341 c55fc775 ccd9937d 23d6146e  
+3ffff5c0:  56436b2b dd10e27a 80dff2e9 90489b27  
+3ffff5d0:  6b0ace72 a31fdc05 efeca33f 788b2289  
+3ffff5e0:  5750b95a c1ff35ab 300b4f0d cdbaef22  
+3ffff5f0:  f019ee96 d87f66bb b23dd8a0 3502a842  
+3ffff600:  35663d04 c5e6b0d4 bc00aad2 3d1c2ec6  
+3ffff610:  359df4e0 785b92b2 64a1d147 c3d7f622  
+3ffff620:  b8a85421 e4ae0ced 1cb04ae8 dd4d2fca  
+3ffff630:  62c79050 a9e9e6f7 cb546f5f 5657d491  
+3ffff640:  56dd1430 de14c924 bebc232a 2aa3e0da  
+3ffff650:  86808056 e28e104e 8d1756c2 c980318c  
+3ffff660:  83ddc4b7 2bfeaf73 43bf09cb 2325ff14  
+3ffff670:  0320d871 ba1f9066 052b5324 73763634  
+3ffff680:  fa594e53 5a1bb841 4f494d47 23e26744  
+3ffff690:  ea006ba8 293938bd 84eb36fd 70509336  
+3ffff6a0:  5b9c0f79 95c87d6c ff0aaf64 723fdd7e  
+3ffff6b0:  62e6e4bc aa0988d4 f35da669 6f284355  
+3ffff6c0:  d36a46e9 c979abcc d5a52447 20a9c7ac  
+3ffff6d0:  6b40997f f2e9d30c 73b173e0 6c87190a  
+3ffff6e0:  f6f7edca 0dd38bd0 8a38be2e e336ad61  
+3ffff6f0:  c70c55f5 b32ddbcd 99786b8c e28ce5f6  
+3ffff700:  2b45dbe6 05db5bb2 2a402d08 6a71d24f  
+3ffff710:  d8b9af10 47b2bd99 1d4de9b6 be02b92d  
+3ffff720:  57755b75 75a6a919 9b94a880 bc01f7ae  
+3ffff730:  2146886f 16b03960 0db812fe 635b21e4  
+3ffff740:  0802dbb7 6d15ede0 4907aef3 b0305690  
+3ffff750:  e1f98d61 a03f89b2 6c319bda a7a2a103  
+3ffff760:  978268bd 6d6bea23 a9f968f4 1637ec84  
+3ffff770:  20613550 0a753916 9ed0450c c5f854dc  
+3ffff780:  141f4802 a24f20c3 0e061a3e 94ff1d92  
+3ffff790:  4bd25361 8fa32028 b3ab0105 32f1e0a7  
+3ffff7a0:  0a761f63 3fdf8198 0a356342 ab3388f6  
+3ffff7b0:  0aece6d1 128d60b9 a6fcb4b9 65d7ece9  
+3ffff7c0:  bec3a2a0 365d26ef f60d5ec8 eb0b1c21  
+3ffff7d0:  8788fd88 86d803af 8e7a992b 12d96cdf  
+3ffff7e0:  f1fb3816 c1e2e98f 768418ae b3330181  
+3ffff7f0:  0852a624 8b6a4c0b d58c7a22 ee432618  
+3ffff800:  fa27a6e2 9466f076 908a6e5a e5cac48a  
+3ffff810:  bb0ceaf6 ebcc8b56 e9f89bf1 b7b7e0a3  
+3ffff820:  c32a90bf 3bdb0110 c728f7a6 6bf87ae5  
+3ffff830:  d1e6572a e4f206c7 c89e9d7a f6721e10  
+3ffff840:  0f6b2224 02d38f5f 805347e1 24543a7d  
+3ffff850:  c4b7d0bf 9fec40f1 2ada9324 7ce93680  
+3ffff860:  bc474f2e 322d21b5 137b53cd 2507223e  
+3ffff870:  b623d2da b3fccc5d f9a54ff0 f8e53114  
+3ffff880:  f1cb3222 4c23658d 9a6c1fcf d40a6422  
+3ffff890:  1f56735d b037edc9 a8c73c31 5a011352  
+3ffff8a0:  fa656ee3 ccc5d00e 7b6634f4 6a68299c  
+3ffff8b0:  1ade5ea3 b8089cdf 476b5f7d 54fa103a  
+3ffff8c0:  3db09d97 86073a6b 3005452b 370b5e56  
+3ffff8d0:  822894ea 5eb1678c f993ff3e de58a332  
+3ffff8e0:  4490d02b 8e689f0c 39fc660d b7ac0a50  
+3ffff8f0:  971dc2fe b383d3a2 314b2fca f1cbdfd4  
+3ffff900:  32dda503 2e9bc354 7e3bffab d587333a  
+3ffff910:  80f17f83 bd38aa92 293bd346 6bc1724d  
+3ffff920:  22ff00a0 2bfd9c70 cefc60f2 7833a9a5  
+3ffff930:  3a4d3f83 4656bbb6 39fddcd6 20ad2ce9  
+3ffff940:  dee877ea edd6280a b8a94d7c d02e0794  
+3ffff950:  5a6606ea 658a0f3e 798840af 40d0d038  
+3ffff960:  b75ad815 34e3b14c 14f01d5d 60dbb498  
+3ffff970:  87ec1bd6 0d1cb792 652aef4b 7c4f988f  
+3ffff980:  423d3bc5 ea160b75 14b11a00 471bb679  
+3ffff990:  bec66b68 acb3c2be 0bea804b e16535ca  
+3ffff9a0:  0f1d797e b9053b72 64817134 1c03d5b8  
+3ffff9b0:  f14c3112 f4480271 824c280a aeed51c1  
+3ffff9c0:  35bb8f6b 3ac5150a ab7deaa5 8fee3e90  
+3ffff9d0:  0e36cf3b 90f7ee12 c5f427ca 6416de4a  
+3ffff9e0:  8d528c8e f987f511 c4f3d3eb 86b9b064  
+3ffff9f0:  5e35d9f6 2f27dfb3 441cd473 42e6f019  
+3ffffa00:  7cbb0fe0 ae820456 cf425121 e8af0265  
+3ffffa10:  972c14c3 2b774b9a c8edf23d d85887fe  
+3ffffa20:  b9caa719 710f4faa ff8e7e96 6e2a96a7  
+3ffffa30:  e2c7b5b1 da3cb1c0 953971a5 93eb72e1  
+3ffffa40:  7355c7b7 d9e5513e d649982c e5754bfd  
+3ffffa50:  294137ef 3995108a 1cd88473 86e140fa  
+3ffffa60:  95b0b174 4f80e2ef 6d366a56 47288c69  
+3ffffa70:  f69d5405 70a17102 4c842a47 5621ca95  
+3ffffa80:  cd04b1ff 3930a394 bd4cf026 06b9e18a  
+3ffffa90:  baf6ea9f 539fd37a e8360f61 92068771  
+3ffffaa0:  49ccca05 eb452699 ff9c86ba b6d5a315  
+3ffffab0:  af319d2b d1a3b113 fb186006 88ae90c9  
+3ffffac0:  e81d00a0 efff02ee 1d9c97ec 851fa618  
+3ffffad0:  7c997668 a33cdde7 3861e543 503496cf  
+3ffffae0:  1ef3f810 bd6bf39d c57dc9a7 87fbef60  
+3ffffaf0:  1b3665d6 0e1ae8ed f98a6640 22d13c85  
+3ffffb00:  54f36e8a 1cca631d df899fe7 5f3e106c  
+3ffffb10:  2622cae3 3d15a146 7042ca88 ae53c8e6  
+3ffffb20:  acef5608 6c3673ec 3b633f85 d48fa2b5  
+3ffffb30:  5f6a8e24 6547ae1c ca652cd8 b89dba67  
+3ffffb40:  b50e084d e632c213 0324ac6c a93e35e3  
+3ffffb50:  d80e088b 46071191 b127ac8b 97cc4987  
+3ffffb60:  e3fe8e15 fa7d3d79 a9ab2f91 a6cce8f0  
+3ffffb70:  603dba1f f38d5c59 13f34ed0 d5bfdfae  
+3ffffb80:  c030cc2f 4f343d2a af7f9f15 9ac4803d  
+3ffffb90:  c4a4a09c 5fd9c31f a59d79a8 d551b9bc  
+3ffffba0:  151bb50a 88571d62 3a3bdb4a 9d3f92a8  
+3ffffbb0:  e475b8f5 ed7efc21 86dfa312 b2692007  
+3ffffbc0:  e51bb060 d5478baf 1a207c87 ca95ed0f  
+3ffffbd0:  5c2cac4a f9c5d0b2 c003f2c0 ad5d8b89  
+3ffffbe0:  ad32ac82 f6217a01 18a62512 2f402fae  
+3ffffbf0:  79a9e20b eb5d62f2 8fb09d49 7f27ec86  
+3ffffc00:  c2942878 be5b6918 5d49861e 8ea40f16  
+3ffffc10:  ef7c68f4 050848c7 6d33719f e203dc34  
+3ffffc20:  a4406b3a 4fbb7201 020febee a6cd8e01  
+3ffffc30:  0f57fd77 a1f41e4a 42988043 c8295292  
+3ffffc40:  070c7e59 699e5fbc 1b8e584c 6cab39d0  
+3ffffc50:  80019da2 38674a56 c66bdcf0 3e9a1434  
+3ffffc60:  cac09a8d 70cffd83 8e1125e5 319f10fc  
+3ffffc70:  93e3e1c4 ec1f4eb7 069e04f0 faffee4d  
+3ffffc80:  5491f03c 080566c4 9b3d59f7 7c6c713c  
+3ffffc90:  ecd0ef26 6117eacf 8004eaf5 8c4dc20e  
+3ffffca0:  79f1ac34 74a7d2c5 acd0e40c fbc012ba  
+3ffffcb0:  32bc0c64 f3a7a304 3f7e404a 5361c985  
+3ffffcc0:  5958a768 f3ed1bd1 3d120680 e27ad726  
+3ffffcd0:  96c52743 446c2102 9df62dbe 5b678389  
+3ffffce0:  6566ab21 99eae3e9 f5d3983c 5e7f5550  
+3ffffcf0:  eaa7beec 127d685e 98dbbc2b 4fd5f7dc  
+3ffffd00:  edf48a48 0c09f423 ea892c6c f28e7a5b  
+3ffffd10:  79b4c1f6 6393419f 89017b1b 630b3b60  
+3ffffd20:  8f233ab1 cb7af04e 3fb32ad3 7f74ac35  
+3ffffd30:  00000002 00000000 00000010 00000000  
+3ffffd40:  00000002 00000000 00000010 00000000  
+3ffffd50:  18d47304 40eeb731 3664c766 6df8560d  
+3ffffd60:  00000000 80000000 00000000 0000001b  
+3ffffd70:  00001000 bb77f0db 00001000 00008000  
+3ffffd80:  0000000b 00000000 00001000 00000000  
+3ffffd90:  00008000 00000000 00000010 00000000  
+3ffffda0:  2ac4a9bb fe2c8d85 40001e65 3ffffdf8  
+3ffffdb0:  3ffffe70 00000002 00000000 40001e4b  
+3ffffdc0:  3ffffdf7 00000000 00000000 00000000  
+3ffffdd0:  b8679016 00000000 00005800 d0e1a707  
+3ffffde0:  00008000 00000000 0000000a 00000000  
+3ffffdf0:  61356163 32383433 40001e65 3ffffe42  
+3ffffe00:  3ffffec0 0000000b 55c730e8 40001e4b  
+3ffffe10:  3ffffe41 00000000 00000000 00000000  
+3ffffe20:  00007000 42d5f7cf 00007000 0000a000  
+3ffffe30:  b3063ad5 00000000 00007000 406a09a9  
+3ffffe40:  3fffd848 40002364 00000001 00000000  
+3ffffe50:  40001db4 00000078 00000000 00000010  
+3ffffe60:  40001f46 00000009 117404cc 40001e4b  
+3ffffe70:  33343832 63613561 00000000 00000000  
+3ffffe80:  41b36cdb fd29bc5b 53323113 f85144db  
+3ffffe90:  3fffd848 40002364 00000007 00000000  
+3ffffea0:  40001db4 00000078 00000000 00000010  
+3ffffeb0:  00000000 3fffff20 3fffff20 3fffff46  
+3ffffec0:  40002514 3fffdd3c 00000001 3fffffb0  
+3ffffed0:  3fffefc0 00000008 00000008 00000001  
+3ffffee0:  00000000 2843a5ac 00000000 3ffffe78  
+3ffffef0:  00000008 40002394 0000002c ffffffff  
+3fffff00:  3fffff20 3fffff20 00000004 4010f120  
+3fffff10:  00000000 400042db 3fffff90 000000df  
+3fffff20:  40004b31 00000004 0006766c 00000000  
+3fffff30:  4010f19a 00000001 00000000 3ffffec2  
+3fffff40:  3ffe8570 0000179c 200305e9 401000b8  
+3fffff50:  3fffffb0 00000000 00000009 4010f51d  
+3fffff60:  4f2d4701 ffffffff 00000000 27a9eb6d  
+3fffff70:  cf36c3d2 bcdd80d8 cf67a537 caca7f67  
+3fffff80:  e22a4175 20406cf1 a5b71241 40bce136  
+3fffff90:  46ed2cfb fb1e3a19 709ece32 6811e1bb  
+3fffffa0:  f3b46d2e ce966593 7f8c8ca0 3a5db533  
+<<<stack<<<
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+ ets Jan  8 2013,rst cause:1, boot mode:(3,7)
+
+load 0x4010f000, len 3584, room 16 
+tail 0
+chksum 0xb0
+csum 0xb0
+v2843a5ac
+~ld
