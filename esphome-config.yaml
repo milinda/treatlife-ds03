@@ -1,0 +1,81 @@
+# -----------------------------------------------------------------------------
+# TUYA SETUP FOR TREATLIFE DS03 CEILING FAN DIMMERS
+# From https://github.com/esphome/issues/issues/1278
+# -----------------------------------------------------------------------------
+
+substitutions:
+  device_name: treatlifeds03 
+  friendly_name: treatlifeds03-01
+  ssid: !secret wifi_ssid
+  ssidpass: !secret wifi_password
+
+esphome:
+  name: ${device_name}
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  ssid: $ssid
+  password: $ssidpass
+  ap:
+    ssid: ESPHome ${friendly_name}
+    password: !secret fallback_ap_password
+
+mqtt:
+  broker: !secret mqtt_broker
+
+logger:
+  baud_rate: 0
+
+ota:
+  password: !secret ota_password
+
+web_server:
+  port: 80
+
+uart:
+  rx_pin: GPIO3
+  tx_pin: GPIO1
+  baud_rate: 115200
+
+tuya:
+
+text_sensor:
+# Expose ESPHome version as sensor.
+  - platform: version
+    name: ${friendly_name} ESPHome Version
+    
+  - platform: wifi_info
+    ip_address:
+      name: ${friendly_name} IP Address
+    ssid:
+      name: ${friendly_name} SSID
+    bssid:
+      name: ${friendly_name} BSSID
+
+sensor:
+  - platform: wifi_signal
+    name: ${friendly_name} WiFi Signal
+    update_interval: 60s
+    filters:
+      - delta: 0.01
+      - throttle: 300s
+
+  - platform: uptime
+    name: ${friendly_name} Uptime
+    filters:
+      - throttle: 300s
+
+light:
+  - platform: "tuya"
+    name: ${friendly_name}-light
+    dimmer_datapoint: 10
+    switch_datapoint: 9
+    min_value: 100
+    max_value: 1000
+
+fan:
+  - platform: "tuya"
+    name: ${friendly_name}-fan
+    switch_datapoint: 1
+    speed_datapoint: 3
